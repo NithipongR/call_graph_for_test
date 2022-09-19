@@ -26,7 +26,7 @@ SECRET_KEY = 'lk;akjdflkjsklfdjdaskl;fjdfalskdj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost','skcone.siamkubota.co.th']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
