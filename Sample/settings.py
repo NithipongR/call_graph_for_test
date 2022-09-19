@@ -133,6 +133,6 @@ ERROR_TEMPLATE = 'auth/{}.html' # for rendering 401 or other errors from msal_mi
 MIDDLEWARE.append('ms_identity_web.django.middleware.MsalMiddleware')
 
 # SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
-# SESSION_COOKIE_SECURE = True
-# CSRF_COOKIE_SECURE = True
-# SECURE_SSL_REDIRECT = True
+SESSION_COOKIE_SECURE = True
+CSRF_COOKIE_SECURE = True
+SECURE_SSL_REDIRECT = True
